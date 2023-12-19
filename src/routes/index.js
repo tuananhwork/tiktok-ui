@@ -14,7 +14,6 @@ export const publicRoutes = [
     {
         path: '/following',
         element: Following,
-        layout: null,
     },
     {
         path: '/upload',
