@@ -1,0 +1,113 @@
+.wrapper {
+    width: 240px;
+    height: 1000px;
+    overflow: hidden;
+    padding: 20px 0 26px 8px;
+    // position: absolute;
+    position: fixed;
+    left: 0;
+}
+
+.side-list {
+    border-bottom: 1px solid var(--light-gray-color);
+    padding: 8px 0 8px 0;
+}
+
+.side-list-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.side-list-item:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.side-list-item box-icon {
+    margin-right: 10px;
+}
+
+.side-list-item h2 {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.side-list-item.active {
+    color: var(--primary-color);
+}
+
+.side-desc {
+    font-size: 1.6rem;
+    color: var(--dark-gray-color);
+    padding: 18px 28px 18px 8px;
+}
+
+.side-login-btn {
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--primary-color);
+    border-radius: 4px;
+    color: var(--primary-color);
+    background: transparent;
+    width: 84%;
+    min-height: 48px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 8px;
+    margin: 0 0 28px 8px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.side-creativity-btn {
+    border-radius: 4px;
+    color: #fff;
+    background: linear-gradient(#a100ffff, #119cfdff);
+    border: none;
+    outline: none;
+    width: 84%;
+    min-height: 48px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 8px;
+    margin: 0 0 28px 8px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.side-link {
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid var(--light-gray-color);
+    padding-left: 8px;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.side-link-item {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--dark-gray-color);
+    padding: 4px 0;
+}
+
+.side-link-item a {
+    padding-right: 6px;
+    display: block;
+}
